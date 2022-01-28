@@ -1,0 +1,22 @@
+---
+title: "Week 02 Exercise"
+output: html_document
+---
+
+[ ] - indexing positions
+
+```{r}
+m <- 1:100
+m
+
+m[1:15]
+```
+Matthew on single and double brackets: I think things might start to make a bit more sense when we get to indexing list indices e.g., list[[2]][1,2] vs list[2][1,2] (second one will return an error)
+
+When reading csv file Remember to copy PATH exactly as it is presented and remember to use commas (,) between each field in read.csv
+
+```{r}
+df <- read.csv(file = "~/Documents/Documents/class_folders/ada/repos/week-02-exercise/CPDS-1960-2014-reduced.csv", sep = "," , header = TRUE, stringsAsFactors = FALSE)
+```
+
+If you get a Error: unexpected symbol, make sure to check you have commas between each field. 
