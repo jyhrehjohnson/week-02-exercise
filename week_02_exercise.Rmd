@@ -16,7 +16,7 @@ Matthew on single and double brackets: I think things might start to make a bit 
 Tony's example of creating your own Data Frame: Love the Walking Dead reference
 
 ```{r}
-df <- df <-
+df <-
   data.frame(
     firstName = c("Rick", "Negan", "Dwight", "Maggie", "Michonne"),
     community = c("Alexandria", "Saviors", "Saviors", "Hilltop", "Alexandria"),
