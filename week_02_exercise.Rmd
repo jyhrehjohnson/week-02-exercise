@@ -13,6 +13,19 @@ m[1:15]
 ```
 Matthew on single and double brackets: I think things might start to make a bit more sense when we get to indexing list indices e.g., list[[2]][1,2] vs list[2][1,2] (second one will return an error)
 
+Tony's example of creating your own Data Frame: Love the Walking Dead reference
+
+```{r}
+df <- df <-
+  data.frame(
+    firstName = c("Rick", "Negan", "Dwight", "Maggie", "Michonne"),
+    community = c("Alexandria", "Saviors", "Saviors", "Hilltop", "Alexandria"),
+    sex = c("M", "M", "M", "F", "F"),
+    age = c(42, 40, 33, 28, 31)
+  )
+df # will display data frame
+```
+
 When reading csv file Remember to copy PATH exactly as it is presented and remember to use commas (,) between each field in read.csv
 
 ```{r}
